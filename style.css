@@ -15,14 +15,14 @@ p {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center; /* Center the content horizontally */
+    justify-content: center;
     text-align: left; 
 }
 
 .col-2 {
-    flex: 1; /* Allow columns to grow and shrink equally */
-    max-width: 45%; /* Limit the width of the columns */
-    margin: 10px; /* Add some margin around columns */
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
 }
 
 .col-2 img {
@@ -43,13 +43,13 @@ p {
 .header {
     background: radial-gradient(#fff, #ffd6d6);
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100vh; /* Take the full height of the viewport */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .block-title {
-    text-align: center; /* Center the title */
+    text-align: center;
 }
 .categories{
 	margin: 70px 0;
