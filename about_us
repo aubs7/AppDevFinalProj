@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 </head>
 <body>
     <div class="header">
@@ -30,14 +31,13 @@
                     seamless shopping experience.<br> Discover your perfect fit today<br>
                     and step out in style with Urban Soles.
                 </p>
-                <a href="" class="btn">Learn More &#8594;</a>
+                <a href="#" class="btn">Learn More &#8594;</a>
             </div>
             <div class="col-2">
                 <img src="image/pic1.jpeg" alt="Shoes">
             </div>
         </div>
     </div>
-	
 	<div class="categories">
 		<div class="small-container">
 		<div class="row">
