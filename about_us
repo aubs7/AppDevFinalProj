@@ -55,35 +55,35 @@
 	</div>
 	
 	<div class="container">
-		<h2 class="block-title">MEMBERS</h2>
-		<div class="box">
-			<div class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-			<div class="content">
-			<h3>Member</h3>
-			<p>Belen, Clark</p>
-			</div>
-		</div>
-		<div class="box">
-			<div class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-			<div class="content">
-			<h3>Member</h3>
-			<p>Delfin, Froilan Equiz</p>
-			</div>
-		</div>
-		<div class="box">
-			<div class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-			<div class="content">
-			<h3>Member</h3>
-			<p>Lasala, Aubrey Min</p>
-			</div>
-		</div>
-		<div class="box">
-			<div class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-			<div class="content">
-			<h3>Member</h3>
-			<p>Macabales, Francine Ella G.</p>
-			</div>
-		</div>
-	</div>
+        <h2 class="block-title">MEMBERS</h2>
+        <div class="box">
+            <div class="icon"><img src="image/Belen.jpg" alt="Member Image"></div>
+            <div class="content">
+                <h3>Member</h3>
+                <p>Belen, Clark</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><img src="image/Delfin.jpg" alt="Member Image"></div>
+            <div class="content">
+                <h3>Member</h3>
+                <p>Delfin, Froilan Equiz</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><img src="image/Lasala.jpg" alt="Member Image"></div>
+            <div class="content">
+                <h3>Member</h3>
+                <p>Lasala, Aubrey Min</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><img src="image/Macabales.jpg" alt="Member Image"></div>
+            <div class="content">
+                <h3>Member</h3>
+                <p>Macabales, Francine Ella G.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
