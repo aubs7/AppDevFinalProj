@@ -10,7 +10,6 @@ a {
 p {
     color: #555;
 }
-
 .row {
     display: flex;
     align-items: center;
@@ -28,7 +27,7 @@ p {
 .col-2 img {
     max-width: 75%;
     height: auto;
-    padding: 0; /* Remove the excessive padding */
+    padding: 0;
 }
 
 .btn {
@@ -52,89 +51,77 @@ p {
     text-align: center;
 }
 .categories{
-	margin: 70px 0;
+    margin: 70px 0;
 }
 .col-3{
-	flex-basis: 30%;
-	min-width: 250px;
-	margin-bottom: 30px;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
 }
 .col-3 img{
-	width: 100%;
+    width: 100%;
 }
 .small-container{
-	max-width: 1080px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .container{
-	position: relative;
-	width: 1200px;
-	height: 300px;
-	margin: 240px auto;
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
 }
 .container .box{
-	position: relative;
-	width: calc(290px - 20px);
-	height: calc(300px - 20px);
-	background: #ff523b;
-	float: left;
-	margin: 15px;
-	box-sizing: border-box;
-	overflow: hidden;
-	border-radius: 10px;
+    position: relative;
+    width: calc(280px - 20px);
+    height: calc(300px - 20px);
+    background: #ff523b;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
 }
 .container .box .icon{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: #fff;
-	transition: 0.5s;
-	z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
 }
-.container .box:hover .icon{
-	top: 20px;
-	left: calc(50% - 40px);
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-}
-.container .box .icon .fa{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 80px;
-	transition: 0.5s;
-	color: #fff;
-}
-.container .box:hover .icon .fa{
-	font-size: 40px;
+.container .box .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .container .box .content{
-	position: absolute;
-	top: 100%;
-	height: calc(100% - 100px);
-	text-align: center;
-	padding: 20px;
-	box-sizing: border-box;
-	transition: 0.5s;
-	opacity: 0;
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
 }
 .container .box:hover .content{
-	top: 100px;
-	opacity: 1;
+    top: 100px;
+    opacity: 1;
 }
 .container .box .content h3{
-	margin: 0 0 10px;
-	padding: 0;
-	color: #fff;
-	font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
 }
 .container .box .content p{
-	margin: 0;
-	padding: 0;
-	color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
